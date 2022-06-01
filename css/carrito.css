@@ -1,0 +1,114 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	
+    background: url(/imagenes/inicio/fondoP.jpg);
+    color: black;
+
+}
+
+header{
+
+	width: 98%;
+	height: 10vh;
+	background: linear-gradient(45deg,rgb(38, 255, 0),rgb(120, 129, 6),green,black);
+	position: relative;
+	padding:5px 1%;
+}
+
+aside{
+	background: url(/imagenes/inicio/fondoP.jpg);
+	width: 18%;
+	height: 100%;
+	float: left;
+	font-size: 0.5cm;
+	font-family: 'Segoe UI', Tahoma, sans-serif;
+	font-weight: 500;
+	font-style: italic;
+	
+
+}
+
+.nombreParte1{
+	color: rgb(42, 19, 3);
+	font-size: 1.5cm;
+}
+
+.nombreParte2{
+	color: white;
+	font-size: 1.6cm;
+}
+
+.poder{
+	color: yellow;
+}
+
+nav{
+	font-size: 20px;
+	line-height: 50px
+}
+
+.botones{
+	color: white;
+	margin: 0px 15px;
+	text-decoration: none;
+}
+
+.botones:hover{
+	color: aqua;
+}
+
+table{
+	margin-side: bottom;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+th{
+	background-color: blue;
+	color: white;
+}
+
+td,th{
+	border: 2px solid black;                                                                                  +
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+td{
+	color: black;
+	padding: 7px 15px;
+
+}
+
+.botonEliminar{
+	background: white;
+	color: white;
+	font-size: 25px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.botonEliminar:hover{
+	background: aqua;
+}
+
+.botonComprar{
+	background: yellow;
+	color: black;
+	font-size: 18px;
+	padding: 5px 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 1px solid black;
+}

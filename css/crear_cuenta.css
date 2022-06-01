@@ -1,0 +1,133 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+    background: white;
+    color: #C4B1B2;
+}
+
+header{
+  width: 98%;
+	height: 10vh;
+	background: linear-gradient(45deg,rgb(38, 255, 0),rgb(120, 129, 6),green,black);
+	position: relative;
+	padding:5px 1%;
+}
+
+.nombreParte1{
+	color: rgb(42, 19, 3);
+	font-size: 1.5cm;
+}
+
+.nombreParte2{
+  color: white;
+	font-size: 1.6cm;
+}
+
+.poder{
+	color: yellow;
+}
+
+nav{
+	font-size: 15px;
+	line-height: 50px
+}
+
+.botones{
+	color: white;
+	margin: 0px 5px;
+  font-size: 0.5cm;
+  text-decoration: none;
+}
+
+.botones:hover{
+	color: aqua;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("../imagenes/crear_cuenta/opcion5.jpg") no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.login-box {
+  width: 320px;
+  height: 395px;
+  background: black;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -45%);
+  box-sizing: border-box;
+  padding: 20px 30px;
+  filter:alpha(opacity=70);
+-moz-opacity:.70;opacity:.50;
+border-radius: 1cm;
+}
+
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+  color:  black;
+  
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+#btnCrear{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #42ad10;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#btnCrear:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.login-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login-box a:hover {
+  color: #fff;
+}

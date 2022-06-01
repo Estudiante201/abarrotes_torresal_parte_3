@@ -1,0 +1,139 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+    background: white;
+    color: #C4B1B2;
+}
+
+header{
+	width: 98%;
+	height: 10vh;
+	background: linear-gradient(45deg,rgb(38, 255, 0),rgb(120, 129, 6),green,black);
+	position: relative;
+	padding:5px 1%;
+}
+
+.nombreParte1{
+  color: rgb(42, 19, 3);
+	font-size: 1.5cm;
+}
+
+.nombreParte2{
+	color: white;
+	font-size: 1.6cm;
+}
+
+.poder{
+	color: yellow;
+}
+
+nav{
+	font-size: 0.5cm;
+	line-height: 50px
+}
+
+.botones{
+	color: white;
+	margin: 0px 15px;
+	text-decoration: none;
+  
+}
+
+.botones:hover{
+	color: aqua;
+}
+
+body {
+  background: url("../imagenes/crear_cuenta/opcion4.jpg") no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.login-box {
+  width: 320px;
+  height: 380px;
+  background: rgba(0, 0, 0, 0.733);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 60px 30px;
+  filter:alpha(opacity=70);
+-moz-opacity:.70;opacity:.50;
+border-radius: 1cm;
+}
+
+.login-box .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+#btnIngresar{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #42ad10;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#btnIngresar:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.login-box a {
+  text-decoration: none;
+  font-size: 0.7cm;
+  line-height: 0.8cm;
+  color: rgb(31, 165, 4);
+}
+
+.login-box a:hover {
+  color: #fff;
+}
+
+

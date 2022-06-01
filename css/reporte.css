@@ -1,0 +1,75 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+    color: #C4B1B2;
+}
+
+header{
+	width: 100%;
+	height: 10vh;
+	background: linear-gradient(45deg,rgb(38, 255, 0),rgb(120, 129, 6),green,black);
+	position: relative;
+	padding-left: 1%;
+}
+
+.nombreParte1{
+	color: rgb(42, 19, 3);
+	font-size: 1.5cm;
+}
+
+.nombreParte2{
+	color: white;
+	font-size: 1.6cm;
+}
+
+.poder{
+	color: yellow;
+}
+
+nav{
+	font-size: 20px;
+	line-height: 50px
+}
+
+.botones{
+	color: white;
+	margin: 0px 15px;
+	text-decoration: none;
+}
+
+.botones:hover{
+	color: aqua;
+}
+
+.reporte{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+	color: black;
+	text-align: center;
+}
+
+.reporte select{
+	padding: 5px;
+	background: white;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.reporte option{
+	background: #ffffff;
+}
+
+input[type="submit"]{
+	background: red;
+	color: white;
+	font-size: 15px;
+	padding: 5px;
+	margin: 0px 5px;
+	cursor: pointer;
+	border-radius: 5px;
+}
